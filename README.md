@@ -4,7 +4,7 @@ Proyecto desarrollado en NodeJS para gestionar un json con pokemons y datos sobr
 
 ## 📖 Comentarios del desarrollo:
 
-Este proyecto fue una experiencia enriquecedora, no solo por continuar trabajando con Node.js, sino también por introducirme al uso de Express, que facilitó significativamente el desarrollo de la API. Además, utilicé TypeScript, basándome en una plantilla que desarrollé previamente y cuyo repositorio está disponible en Plantilla-Node-TypeScript. Asimismo, este proyecto marcó mi primer acercamiento práctico a la arquitectura hexagonal.
+Este proyecto fue una experiencia enriquecedora, no solo por continuar trabajando con Node.js, sino también por introducirme al uso de Express, que facilitó significativamente el desarrollo de la API. Además, utilicé TypeScript, basándome en una plantilla que desarrollé previamente y cuyo repositorio está disponible en [Plantilla-Node-TypeScript](https://github.com/m0usedev/Plantilla-Node-TypeScript). Asimismo, este proyecto marcó mi primer acercamiento práctico a la arquitectura hexagonal.
 
 Lo más destacable para mí en este proyecto fue, en primer lugar, el uso de TypeScript como lenguaje. Esto reforzó mi convicción sobre su utilidad y el valor de contar con un sistema de tipado estático para variables, parámetros y funciones, lo que facilita y organiza el desarrollo de forma considerable. Por otro lado, la implementación de la arquitectura hexagonal fue un desafío interesante. Aunque comprendo su propósito de separar la lógica de aplicación de la lógica de negocio, todavía encuentro algunos aspectos de su implementación algo complejos.
 
