@@ -44,42 +44,42 @@ Local:   http://localhost:1234/
    - Post one Pokemon: Agregar un pokemon a la lista.
      - Path: `/pokemon/add`
      - Body:
-      ```json
-      {
-        "number": number,
-        "name": string,
-        "type": string[],
-        "description": string
-      }
-      ```
-      Ejemplo:
-      ```json
-      {
-        "number": 11,
-        "name": "Pikachu",
-        "type": [
-        "Eléctrico"
-        ],
-        "description": "Este inteligente Pokémon tuesta las duras bayas con electricidad para hacerlas más comestibles."
-      }
-      ```
+         ```json
+         {
+           "number": number,
+           "name": string,
+           "type": string[],
+           "description": string
+         }
+         ```
+         Ejemplo:
+         ```json
+         {
+           "number": 11,
+           "name": "Pikachu",
+           "type": [
+           "Eléctrico"
+           ],
+           "description": "Este inteligente Pokémon tuesta las duras bayas con electricidad para hacerlas más comestibles."
+         }
+         ```
    - Put one Pokemon:
      - Path: `/pokemon/modify/:number` -> `/pokemon/modify/11`
      - Body:
-      ```json
-      {
-        "number": number,
-        "name": string,
-        "type": string[],
-        "description": string
-      }
-      ```
-      Ejemplo:
-      ```json
-      {
-        "description": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose."
-      }
-      ```
+         ```json
+         {
+           "number": number,
+           "name": string,
+           "type": string[],
+           "description": string
+         }
+         ```
+         Ejemplo:
+         ```json
+         {
+           "description": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose."
+         }
+         ```
    - Delete one Pokemon:
      - Path: `/pokemon/delete/:number` -> `/pokemon/delete/11`
   
