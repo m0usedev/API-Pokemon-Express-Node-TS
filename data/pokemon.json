@@ -1,0 +1,87 @@
+[
+  {
+    "number": 1,
+    "name": "Pikachu",
+    "type": [
+      "Eléctrico"
+    ],
+    "description": "Es el Pokémon ratón, conocido por sus habilidades eléctricas."
+  },
+  {
+    "number": 2,
+    "name": "Charmander",
+    "type": [
+      "Fuego"
+    ],
+    "description": "Es el Pokémon lagarto con una cola en llamas."
+  },
+  {
+    "number": 3,
+    "name": "Bulbasaur",
+    "type": [
+      "Planta",
+      "Veneno"
+    ],
+    "description": "Es el Pokémon semilla, lleva una planta en su espalda."
+  },
+  {
+    "number": 4,
+    "name": "Squirtle",
+    "type": [
+      "Agua"
+    ],
+    "description": "Es el Pokémon tortuga, utiliza ataques de agua."
+  },
+  {
+    "number": 5,
+    "name": "Jigglypuff",
+    "type": [
+      "Normal",
+      "Hada"
+    ],
+    "description": "Es el Pokémon globo, conocido por su canto que induce al sueño."
+  },
+  {
+    "number": 6,
+    "name": "Gengar",
+    "type": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "description": "Es el Pokémon sombra, capaz de atravesar objetos sólidos."
+  },
+  {
+    "number": 7,
+    "name": "Eevee",
+    "type": [
+      "Normal"
+    ],
+    "description": "Es el Pokémon evolución, con múltiples posibles evoluciones."
+  },
+  {
+    "number": 8,
+    "name": "Snorlax",
+    "type": [
+      "Normal"
+    ],
+    "description": "Es el Pokémon dormilón, famoso por su gran apetito y tendencia a dormir."
+  },
+  {
+    "number": 9,
+    "name": "Dragonite",
+    "type": [
+      "Dragón",
+      "Volador"
+    ],
+    "description": "Es el Pokémon dragón, conocido por su amabilidad y poder."
+  },
+  {
+    "number": 10,
+    "name": "Lucario",
+    "type": [
+      "Lucha",
+      "Acero"
+    ],
+    "description": "Es el Pokémon aura, puede sentir y manipular las auras de otros seres."
+  }
+]

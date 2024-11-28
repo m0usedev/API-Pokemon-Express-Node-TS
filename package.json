@@ -5,7 +5,8 @@
   "scripts": {
     "tsc": "tsc",
     "build": "rmdir /s /q dist && tsc",
-    "dev": "ts-node-dev ./src/main.ts",
+    "ts-node-dev": "ts-node-dev",
+    "dev": "ts-node-dev -r tsconfig-paths/register ./src/main.ts",
     "lint:base": "eslint",
     "lint:check": "eslint \"src/**/*.ts\"",
     "lint:fix": "eslint \"src/**/*.ts\" --fix",
@@ -20,6 +21,7 @@
     "@types/eslint__js": "8.42.3",
     "@types/express": "5.0.0",
     "@types/node": "22.9.0",
+    "dependency-cruiser": "16.6.0",
     "eslint": "9.15.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
